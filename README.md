@@ -1,12 +1,12 @@
 # Flutter project
 
-Mobile app for a school project involving data from the web and charts visualizations.
+Mobile app made for a school project involving data from the web and charts visualizations, the backend is Firebase, and the data are used elsewhere by a Raspberry pi.
 
-External libraries used : firebase_core, cloud_firestore, syncfusion_flutter_charts
+External libraries used : firebase_core, firebase_storage, cloud_firestore, syncfusion_flutter_charts, image_picker, image_cropper
 
 ## Features
 
-- Selection of the meter (the one currently in front of the RaspberryPI) as to notify the RaspPI where to send the data
+- Selection of the meter (the one currently in front of the Raspberry pi) as to notify where to send the data on Firebase
 
 - A cropper tool to retrieve a picture stored in Firebase, crop/resize it, and resend it to Firebase
 
